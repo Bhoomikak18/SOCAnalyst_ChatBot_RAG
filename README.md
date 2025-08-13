@@ -19,7 +19,7 @@ By incorporating **conversational memory**, the chatbot will also understand fol
 ## 🖥️ System Architecture Design
 **System Architecture:**  
 
-![System Architecture Diagram](assets/System_Component_Design.png)
+![System Architecture Diagram](SOCAnalyst_ChatBot_RAG/System_Component_Design.png)
 
 ---
 
