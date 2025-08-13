@@ -18,7 +18,8 @@ By incorporating **conversational memory**, the chatbot will also understand fol
 
 ## 🖥️ System Architecture Design
 **System Architecture:**  
-*(Insert your architecture diagram here)*
+
+![System Architecture Diagram](assets/System_Component_Design.png)
 
 ---
 
