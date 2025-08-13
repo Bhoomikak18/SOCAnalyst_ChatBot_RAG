@@ -1,0 +1,19 @@
+pip install -qU PyPDF2 Pillow pytesseract pdfplumber pdf2image chromadb gradio
+pip install -qU langchain_experimental langchain_openai langchain_community langchain-huggingface langchain-ollama
+
+For running Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+import subprocess
+import threading
+import time
+def run_ollama():
+    subprocess.run(["ollama", "serve"])
+
+# Run Ollama in a separate thread
+ollama_thread = threading.Thread(target=run_ollama)
+ollama_thread.start()
+# Give Ollama a moment to start
+time.sleep(5)
+
+ollama pull llama3
